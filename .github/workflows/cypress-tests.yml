@@ -8,7 +8,7 @@ on:
            default: yarn cypress run
 
 jobs:
-  cypress-run: 
+  cypress-electron-tests: 
     runs-on: ubuntu-latest
     steps: 
       - name: Get code
