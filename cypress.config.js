@@ -3,6 +3,7 @@ const { defineConfig } = require("cypress");
 const allureWriter = require('@shelex/cypress-allure-plugin/writer');
 // import allureWriter from "@shelex/cypress-allure-plugin/writer";
 module.exports = defineConfig({
+    projectId: 'k3iaaf',
     e2e: {
        baseUrl: 'https://blogdoagi.com.br/',
         setupNodeEvents(on, config) {
