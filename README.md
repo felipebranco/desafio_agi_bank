@@ -25,7 +25,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ## Ferramentas para instalar: ##
 
-Você precisa ter o [Git](https://git-scm.com), [Cypress Framework](https://www.cypress.io/) e o [Node](https://nodejs.org/en/download)instalados em sua maquina. 
+Você precisa ter o [Git](https://git-scm.com), [Cypress Framework](https://www.cypress.io/) e o [Node](https://nodejs.org/en/download) instalados em sua maquina. 
 
 ## Iniciando: ##
 
