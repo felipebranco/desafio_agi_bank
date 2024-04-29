@@ -1,11 +1,5 @@
 name: Cypress Cloud
-
- on:
-    workflow_dispatch:
-      inputs:
-      cli:
-          description: Run by Cypress command line
-          default: cypress/e2e?*
+on: [push]
 
 jobs: 
   cypress-e2e-electron:
@@ -21,7 +15,8 @@ jobs:
           browser: electron
           group: UI Electron
           spec: ${{ github.event.inputs.spec }}
-        env:
+          record: true
+          parallel: true # Runs test in parallel using settings above
+       env:
           CYPRESS_RECORD_KEY: b6b6116c-5c81-4aab-87e0-7e7836617fe2
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        
