@@ -1,11 +1,7 @@
 name: Cypress Tests - Automação do Blog Agibank
 
 on: 
-   workflow_dispatch:
-     inputs:
-        cli: 
-           description: Run by cypress command line
-           default: yarn cypress run
+   [push]
 
 jobs:
   cypress-electron-tests: 
@@ -18,5 +14,5 @@ jobs:
         run: yarn install
 
       - name: Run E2e tests
-        run: ${{ github.event.inpusts.cli }}
+        run: yarn cypress run
       
