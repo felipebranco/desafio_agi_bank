@@ -4,7 +4,7 @@
   <a href="#dart-sobre">Sobre</a> &#xa0; | &#xa0; 
   <a href="#rocket-tecnologias">Tecnologias</a> &#xa0; | &#xa0;
   <a href="#white_check_mark-pré-requisitos">Pré requisitos</a> &#xa0; | &#xa0;
-  <a href="#checkered_flag-começando">Começando</a> &#xa0; | &#xa0;
+  <a href="#checkered_flag-começando">Iniciado</a> &#xa0; | &#xa0;
 <br>
 
 ## :dart: Sobre ##
@@ -27,7 +27,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 Você precisa ter o [Git](https://git-scm.com), [Cypress Framework](https://www.cypress.io/) e o [Node](https://nodejs.org/en/download)instalados em sua maquina. 
 
-## Começando: ##
+## Iniciando: ##
 
 ```bash
 Para rodar os testes via clone do repositório, siga os passos abaixo:
@@ -44,11 +44,12 @@ Para rodar os testes via clone do repositório, siga os passos abaixo:
 Ex: git clone https://github.com/felipebranco/desafio_agi_bank
 7. Pressione ENTER para criar seu clone local.
 
+```
+```bash
 Para executar os testes automatizados via GitHub Actions. Para rodar os testes, siga os passos abaixo:
 
 1. Acesse a aba "Actions" no repositório.
 2. Selecione o workflow "Execucao do Teste Page Object".
 3. Clique no botão "Run workflow" para iniciar a execução dos testes.
 4. Aguarde a finalização da execução para ver os resultados.
-
 ```
